@@ -43,7 +43,7 @@ NTSTATUS DOKAN_CALLBACK DokanGetVolumeInformation(
     PDOKAN_FILE_INFO DokanFileInfo) {
   UNREFERENCED_PARAMETER(DokanFileInfo);
 
-  wcscpy_s(VolumeNameBuffer, VolumeNameSize, L"DOKAN");
+  wcscpy_s(VolumeNameBuffer, VolumeNameSize, L"NDKAN");
   *VolumeSerialNumber = 0x19831116;
   *MaximumComponentLength = 256;
   *FileSystemFlags = FILE_CASE_SENSITIVE_SEARCH | FILE_CASE_PRESERVED_NAMES |

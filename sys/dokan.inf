@@ -28,7 +28,7 @@ DelService = %ServiceName%,0x200
 1 = %Disk1%
 
 [SourceDisksFiles]
-dokan2.sys = 1
+ndkan2.sys = 1
 
 [DokanFileSystem.DriverFiles]
 %DriverName%.sys
@@ -50,8 +50,8 @@ HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\drivers\%DriverName%.s
 HKR,,TypesSupported,0x00010001,7
 
 [Strings]
-Dokan = "Dokan"
-DriverName = "dokan2"
-Disk1 = "Dokan installation media"
-ServiceDesc = "Dokan kernel-mode file system driver."
-ServiceName = "dokan2"
+Dokan = "ND3 Dokan"
+DriverName = "ndkan2"
+Disk1 = "ND3 Dokan installation media"
+ServiceDesc = "ND3 Dokan kernel-mode file system driver."
+ServiceName = "ndkan2"

@@ -61,7 +61,7 @@ extern DokanPtr_FsRtlAreThereWaitingFileLocks
 #define DOKAN_SYMBOLIC_LINK_NAME L"\\DosDevices\\Global\\Volume"
 
 #ifndef DOKAN_DEVICE_PREFIX_NAME
-#define DOKAN_DEVICE_PREFIX_NAME L"Dokan"
+#define DOKAN_DEVICE_PREFIX_NAME L"NDkan"
 #endif
 #ifndef DOKAN_GLOBAL_DEVICE_NAME
 #define DOKAN_GLOBAL_DEVICE_NAME \
@@ -91,15 +91,15 @@ extern DokanPtr_FsRtlAreThereWaitingFileLocks
 #endif
 
 #ifndef VOLUME_LABEL
-#define VOLUME_LABEL L"DOKAN"
+#define VOLUME_LABEL L"NDKAN"
 #endif
 
 // {D6CC17C5-1734-4085-BCE7-964F1E9F5DE9}
 #ifndef DOKAN_BASE_GUID
 #define DOKAN_BASE_GUID                                                        \
   {                                                                            \
-    0xd6cc17c5, 0x1734, 0x4085, {                                              \
-      0xbc, 0xe7, 0x96, 0x4f, 0x1e, 0x9f, 0x5d, 0xe9                           \
+    0x151cd1bc, 0x9256, 0x4d3a, {                                              \
+      0xab, 0xc, 0xa6, 0x38, 0x13, 0xf4, 0xca, 0x21                           \
     }                                                                          \
   }
 #endif

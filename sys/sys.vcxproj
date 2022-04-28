@@ -149,61 +149,69 @@
   <PropertyGroup />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
     <IntDir>$(Platform)\$(ConfigurationName)\</IntDir>
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
     <IntDir>$(Platform)\$(ConfigurationName)\</IntDir>
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
-    <TargetName>dokan$(DOKANAPIVersion)</TargetName>
+    <TargetName>ndkan$(DOKANAPIVersion)</TargetName>
     <CodeAnalysisRuleSet>C:\Program Files (x86)\Windows Kits\10\CodeAnalysis\DriverRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <OutDir>$(SolutionDir)$(Platform)\$(ConfigurationName)\Driver\</OutDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Link>
